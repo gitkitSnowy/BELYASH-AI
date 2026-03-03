@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 import google.generativeai as genai
 
 # Конфигурация через переменные окружения (для безопасности на хостинге)
-TOKEN = os.getenv('TELEGRAM_TOKEN', 'ТВОЙ_ТОКЕН_БОТФАЗЕРА')
+TOKEN = os.getenv('TELEGRAM_TOKEN', '8715187751:AAFljEDo1WN_UdwQKy2AEJqeLsQUY3VcI3c')
 GEMINI_KEY = os.getenv('GEMINI_KEY', 'AIzaSyAJhic5SwlS7A4Vgpim6uUlt99qQ8ih5dA')
 
 # Настройка нейросети
